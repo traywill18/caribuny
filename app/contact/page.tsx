@@ -1,5 +1,5 @@
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -24,14 +24,14 @@ const ContactUs = () => {
             </p>
             <div className="mt-6 space-y-4">
               <p className="flex items-center gap-2">
-                <span className="font-semibold">📍 Address:</span> 
-                  <a
-                  href="https://www.google.com/maps/place/250+Bedford+Park+Blvd+W,+Bronx,+NY+10468/@40.8725276,-73.8934809,16z/data=!3m1!4b1!4m6!3m5!1s0x89c2f39c8d1473e3:0x768b06980fb8a969!8m2!3d40.8725276!4d-73.8934809!16s%2Fg%2F11bw4mkrl2?entry=ttu&g_ep=EgoyMDI0MTIwMS4xIKXMDSoASAFQAw%3D%3D"
+                <span className="font-semibold">📍 Address:</span>
+                <a
+                  href="https://www.google.com/maps/place/250+Bedford+Park+Blvd+W,+Bronx,+NY+10468"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline hover:text-teal-300"
                 >
-                  250 Bedford Park Blvd 
+                  250 Bedford Park Blvd
                 </a>
               </p>
               <p className="flex items-center gap-2">
@@ -90,7 +90,7 @@ const ContactUs = () => {
                 </label>
                 <textarea
                   id="message"
-                  rows="5"
+                  rows={5} // Changed from "5" to 5
                   className="w-full border rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-teal-500"
                   placeholder="Your Message"
                 ></textarea>
