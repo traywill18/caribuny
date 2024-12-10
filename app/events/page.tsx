@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const EventsPage = () => {
   return (
@@ -16,7 +17,7 @@ const EventsPage = () => {
         <p className="text-lg text-white font-medium leading-relaxed">
           The Caribbean Unity Club takes pride in hosting a diverse range of events that celebrate the richness of
           Caribbean culture, foster community, and provide unforgettable experiences for students. Each event is
-          carefully curated to blend tradition, fun, and education, ensuring there's something for everyone to enjoy.
+          carefully curated to blend tradition, fun, and education, ensuring there is something for everyone to enjoy.
         </p>
       </div>
 
@@ -24,7 +25,7 @@ const EventsPage = () => {
       <section className="px-6 py-10 flex justify-center gap-5">
         {/* First Event Rectangle */}
         <div className="relative w-80 h-48 rounded-lg overflow-hidden shadow-lg group">
-          <img
+          <Image
             src="/Y2K.png" 
             alt="Event Preview"
             className="w-full h-full object-cover"
@@ -36,7 +37,7 @@ const EventsPage = () => {
 
         {/* Second Event Rectangle */}
         <div className="relative w-80 h-48 rounded-lg overflow-hidden shadow-lg group">
-          <img
+          <Image
             src="/Game Day.jpg" 
             alt="Event Preview"
             className="w-full h-full object-cover"
