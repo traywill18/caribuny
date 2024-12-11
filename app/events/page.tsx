@@ -26,9 +26,10 @@ const EventsPage = () => {
         {/* First Event Rectangle */}
         <div className="relative w-80 h-48 rounded-lg overflow-hidden shadow-lg group">
           <Image
-            src="/Y2K.png" 
+            src="/Y2K.png"
             alt="Event Preview"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <h3 className="text-white text-2xl font-bold">2024 Spring Events</h3>
@@ -38,9 +39,10 @@ const EventsPage = () => {
         {/* Second Event Rectangle */}
         <div className="relative w-80 h-48 rounded-lg overflow-hidden shadow-lg group">
           <Image
-            src="/Game Day.jpg" 
+            src="/Game Day.jpg"
             alt="Event Preview"
-            className="w-full h-full object-cover"
+            fill
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             <h3 className="text-white text-2xl font-bold">2024 Fall Events</h3>
