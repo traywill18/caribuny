@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+
 const EventsPage = () => {
   return (
     <main className="min-h-screen bg-gradient-to-tr from-green-300 via-slate-200 to-teal-500">

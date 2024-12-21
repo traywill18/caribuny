@@ -7,9 +7,9 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 
 const MapPage = () => {
   const [viewState, setViewState] = useState({
-    latitude: 18.2208,
-    longitude: -66.5901,
-    zoom: 5,
+    latitude: 14.5401,
+    longitude: -74.9676,
+    zoom: 4.3,
   });
 
   const mapboxAccessToken = "pk.eyJ1IjoidHJheXdpbGwyMiIsImEiOiJjbTRqbmI2djMwNHhlMnBvN2J0cHlpYzI4In0.YW54NQU8ZlwC3u30PfzjuQ"
